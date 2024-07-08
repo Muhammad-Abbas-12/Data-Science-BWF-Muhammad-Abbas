@@ -1,5 +1,5 @@
-# This programe print the person's name 
-# in upper, lowe, and title case
+# This program print the person's name 
+# in upper, lower, and title case
 
 name = "shahzad"
 print("The name is in upper case ", name.upper())  # printing upper case 
