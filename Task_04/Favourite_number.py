@@ -1,4 +1,4 @@
-# This program print favourite number 
+# The program print favourite number 
 # along a message
 
 Favourite_num = "1"

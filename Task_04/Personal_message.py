@@ -1,4 +1,4 @@
-# This programe prints a person name
+# The programe prints a person name
 # along a message
 
 persons_name = "Abid"

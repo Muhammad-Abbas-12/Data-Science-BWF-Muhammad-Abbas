@@ -1,4 +1,4 @@
-# This program print the person's name 
+# The program print the person's name 
 # in upper, lower, and title case
 
 name = "shahzad"

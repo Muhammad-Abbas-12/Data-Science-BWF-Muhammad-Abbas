@@ -1,4 +1,4 @@
-# This program print the new assigned value 
+# The program print the new assigned value 
 # to a variable
 
 msg = "Welcome to the world of Data Sceince!"
