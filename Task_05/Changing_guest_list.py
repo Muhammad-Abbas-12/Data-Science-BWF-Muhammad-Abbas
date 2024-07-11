@@ -12,5 +12,5 @@ guest_list[0] = 'Abbas'
 guest_list[2] = 'Nasir'
 
 for i in range(len(guest_list)):
-    print(f"Deer! {guest_list[i]}!, The honor of your presence is requested for dinner at eight thirty in Meshbell's Hall.")
+    print(f"Deer! {guest_list[i]}!, Join us for a night of culinary delights and laughter at our dinner party")
 
