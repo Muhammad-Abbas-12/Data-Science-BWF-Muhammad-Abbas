@@ -19,20 +19,22 @@ class Restaurant():
 
 
     # class method
-    def set_number_served(self, number_of_cutomer):
-        print("The number of customers "+ self.restaurant_name +" has served are: ", number_of_cutomer) 
+    def set_number_served(self, num_of_cutomer):
+        # set number of customer
+        print("The number of customers "+ self.restaurant_name +" has served are: ", num_of_cutomer) 
         
-    # class method\
+    # class method
     def increment_number_served(self,increment_customer):
-        total_customer = self.number_served + increment_customer
-        print("The total number of customers served in today of business are: ",total_customer)
+        # incrementign number of customers
+        increment_customer = self.number_served + increment_customer
+        print("The total number of customers served in today of business are: ",increment_customer)
 
 # class instance
 restaurant = Restaurant('macdonald','excellent')
 restaurant.number_served
 print("The number of customer the restaurant has serverd are: ",restaurant.number_served)
 restaurant.number_served = 5
-print("The number of customer the reataurant has served are: ",restaurant.number_served)
+print("The number of set customer served are: ",restaurant.number_served)
 restaurant.set_number_served(55)
 restaurant.increment_number_served(67)
 
