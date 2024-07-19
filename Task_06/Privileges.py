@@ -1,7 +1,4 @@
-# inheritance of user class 
-
-# user class
-
+# User class
 class User():
     # initial method
     def __init__(self, first_name, last_name, age, gender):
@@ -20,16 +17,28 @@ class User():
         print('Your are welcome here!')
         print('.'*30)
 
+
+# Privileges class
+class Privileges():
+
+    def __init__(self):
+        self.privileges = ['can add users','can remove users','can be a user']
+
+    def show_privileges(self):
+        print('Priviliges are: ',self.privileges)
+
 # child class inherited from Parent class User
 
 class Admin(User):
     
     def __init__(self):
-     self.privileges = ['can add post','can delete post','can be user']
+        self.privileges = ['can add post','can delete post','can be user']
+     
+        self.privileges = Privileges()
 
-    def show_privileges(self):
-        print('Priviliges are: ',self.privileges)
 
-# child class instance
-admin = Admin()
-admin.show_privileges()
+# Admin class instnace
+
+special_admin = Admin()
+special_admin.privileges.show_privileges()
+
