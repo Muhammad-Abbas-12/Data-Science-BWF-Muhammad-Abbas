@@ -1,4 +1,5 @@
-#  Making a simple class of two variables and one method
+
+# class restauant
 
 class Restaurant():
     # defining initail method which is must
@@ -15,15 +16,15 @@ class Restaurant():
     def open_restaurant(self):
         print("The Restaurant is open.")
 
-# class instance
-restaurant = Restaurant("macdonald","excellent") 
+# instance
+my_restaurant = Restaurant("Macdonald's",'better')
 
 # printint class attribute
-print(restaurant.restaurant_name)
+print(my_restaurant.restaurant_name)
 # printing class attribute
-print(restaurant.cuisine_type)
+print(my_restaurant.cuisine_type)
 
-# calling class method
-restaurant.describe_resturant()
-# calling class method
-restaurant.open_restaurant()       
+# calling method
+my_restaurant.describe_resturant()
+# calling method
+my_restaurant.open_restaurant()       
