@@ -1,6 +1,6 @@
 #  Making a simple class of two variables and one method
 
-from module_restaurant import Restaurant
+from restaurant import Restaurant
 
 # instance
 my_restaurant = Restaurant("Darbar Hotel",'better')
